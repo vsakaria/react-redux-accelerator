@@ -1,6 +1,6 @@
 import React from "react";
 
-import { cleanup, waitForElement, render } from "@testing-library/react";
+import { cleanup, render } from "@testing-library/react";
 
 import Main from "../Main";
 
