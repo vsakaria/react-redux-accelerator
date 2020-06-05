@@ -4,7 +4,7 @@ import styles from "./styles/Main.module.css";
 const Main = (): ReactElement => {
   return (
     <section className={styles.main}>
-      <h1 className="primary-color">Vodafone Test</h1>
+      <h1 className="primary-color">React Accelertor</h1>
     </section>
   );
 };
