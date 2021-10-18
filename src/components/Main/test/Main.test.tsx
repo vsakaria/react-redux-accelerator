@@ -8,6 +8,5 @@ afterAll(cleanup);
 
 test("Main displays the correct title", () => {
   const { getByText } = render(<Main />);
-  expect(getByText('React Accelertor')).toBeInTheDocument();
-
+  expect(getByText('React Accelerator')).toBeInTheDocument();
 });

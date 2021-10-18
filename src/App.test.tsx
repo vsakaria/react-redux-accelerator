@@ -4,5 +4,5 @@ import { render } from "@testing-library/react";
 
 it("renders welcome message", () => {
   const { getByText } = render(<App />);
-  expect(getByText('React Accelertor')).toBeInTheDocument();
+  expect(getByText('React Accelerator')).toBeInTheDocument();
 });
