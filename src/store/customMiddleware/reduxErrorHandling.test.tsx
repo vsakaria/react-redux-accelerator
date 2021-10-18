@@ -68,6 +68,6 @@ describe('reduxApiErrorHandlingMiddleware', () => {
         }
 
         reduxApiErrorHandlingMiddleware(store)(next)(action);
-        expect(httpRequestHandler.postRequest).toBeCalledWith('/cbo/cwa/logging/log', payload)
+        expect(httpRequestHandler.postRequest).toBeCalledWith('/error', payload)
     })
 })
